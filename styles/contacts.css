@@ -1,0 +1,29 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.input {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #242424;
+    border: 2px solid #01d396;
+    color: white;
+}
+
+.button {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #242424;
+    border: 2px solid #01d396;
+    color: #01d396;
+    font-size: medium;
+    margin-block: 10px;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: #01d396;
+    color: #242424
+}

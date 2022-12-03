@@ -7,6 +7,7 @@
     <link rel="icon" href="./imgs/L G BBG.png">
     <link href="./styles/style.css" rel="stylesheet" type="text/css"/>
     <link href="./styles/content.css" rel="stylesheet" type="text/css"/>
+    <link href="./styles/contacts.css" rel="stylesheet" type="text/css"/>
     <link href="./styles/navbar.css" rel="stylesheet" type="text/css"/>
     <title>Hermes</title>
 </head>
@@ -16,13 +17,35 @@
     <script src="./scripts/navbarimport.js"></script>
 
     <div class="content">
-        <h2>You can contact us right here</h2>
-        <form>
-            <label for="email">Email:</label><br>
-            <input type="text"><br>
-            <label for="msg">Your message:</label><br>
-            <input type="text"><br>
-        </form>
+        <div class="gridContainer">
+            <div class="gridElement left">
+                <h1>You can contact us right here</h1>
+                <form>
+                    <label for="email">Email:</label><br>
+                    <input type="text" class="input"><br>
+                    <label for="msg">Your message:</label><br>
+                    <input type="text" class="input"><br>
+                    <button class="button">Send</button>
+                </form>
+            </div>
+            <div class="gridElement right">
+                <h1>Telegram</h1>
+                <ul>
+                    <li>
+                        <a href="https://t.me/chugaister2" class="link">@chugaister2</a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/BetaMW" class="link">@BetaMW</a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/danvac" class="link">@danvac</a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/Lunessel" class="link">@Lunessel</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     
     <nav class="footer"></nav>

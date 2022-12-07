@@ -10,6 +10,11 @@
     background-color: #242424;
     border: 2px solid #01d396;
     color: white;
+    width: 300px;
+}
+
+#messageInput {
+    height: 300px;
 }
 
 .button {

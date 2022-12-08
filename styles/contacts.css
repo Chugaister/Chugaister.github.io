@@ -32,3 +32,7 @@
     background-color: #01d396;
     color: #242424
 }
+
+.listElement{
+    margin-block: 10px;
+}

@@ -2,3 +2,14 @@ body {
     background-color: rgb(47, 79, 79);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.link {
+    text-decoration: none;
+    color: #01d396;
+}
+
+.link:hover {
+    text-decoration:none;
+    color: #0e0e0e;
+    background-color: #01d396;
+}
